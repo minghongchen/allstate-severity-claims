@@ -1,3 +1,21 @@
 # Operating system generated files
 .DS_Store
 .ipynb_checkpoints
+
+# virtual environment
+env/
+
+# Python generated files
+__pycache__/
+.pytest_cache/
+
+# large pickle files
+models/feature_engineer_dict.pkl
+models/retrained/retrain_feature_engineer_dict.pkl
+
+# Data
+data/
+kaggle_result.csv
+
+# mlflow tracking
+mlruns/
